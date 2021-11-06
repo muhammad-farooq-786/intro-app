@@ -15,6 +15,7 @@ public class Intro_Screen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //Repository button
         Button repoButton = findViewById(R.id.repo);
         repoButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -22,6 +23,9 @@ public class Intro_Screen extends AppCompatActivity {
                 loadRepository();
             }
         });
+
+
+        //Makharij button
         Button makharijButton = findViewById(R.id.makharij);
         makharijButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -39,7 +43,7 @@ public class Intro_Screen extends AppCompatActivity {
     }
 
     public void loadMakharij(){
-        Intent mIntent = new Intent();
+        Intent mIntent = new Intent(Intro_Screen.this,Makharij.class);
         startActivity(mIntent);
     }
 }
