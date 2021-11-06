@@ -20,7 +20,15 @@ public class MainActivity extends AppCompatActivity {
         Animation topAnim, bottomAnim;
         topAnim = AnimationUtils.loadAnimation(this,R.anim.top_animation);
         bottomAnim = AnimationUtils.loadAnimation(this,R.anim.bottom_animation);
+
         ImageView imageView = findViewById(R.id.imageView);
         TextView textView = findViewById(R.id.textView);
+
+        imageView.setAnimation(topAnim);
+        imageView.startAnimation(topAnim);
+
+        textView.setAnimation(bottomAnim);
+        textView.startAnimation(bottomAnim);
     }
+
 }
