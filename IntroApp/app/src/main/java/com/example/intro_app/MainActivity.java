@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,5 +20,7 @@ public class MainActivity extends AppCompatActivity {
         Animation topAnim, bottomAnim;
         topAnim = AnimationUtils.loadAnimation(this,R.anim.top_animation);
         bottomAnim = AnimationUtils.loadAnimation(this,R.anim.bottom_animation);
+        ImageView imageView = findViewById(R.id.imageView);
+        TextView textView = findViewById(R.id.textView);
     }
 }
