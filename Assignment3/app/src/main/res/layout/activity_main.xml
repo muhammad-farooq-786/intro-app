@@ -65,4 +65,32 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
+    <Button
+        android:id="@+id/repo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="64dp"
+        android:background="#A66666"
+        android:onClick="onClick"
+        android:text="Go to Repo"
+        android:textAlignment="center"
+        app:iconTint="#9F3838"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/makharij"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#B82D2D"
+        app:strokeColor="#913939" />
+
+    <Button
+        android:id="@+id/makharij"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="64dp"
+        android:text="Go to Makharig"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
