@@ -31,6 +31,6 @@ public class learnMakharij4 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        
+
     }
 }
