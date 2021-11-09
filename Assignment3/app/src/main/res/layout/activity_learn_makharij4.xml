@@ -26,23 +26,11 @@
         app:layout_constraintStart_toEndOf="@+id/back3"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/Next3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="38dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="36dp"
-        android:text="Next"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/Home"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <TextView
         android:id="@+id/textView5"
         android:layout_width="80dp"
         android:layout_height="56dp"
-        android:layout_marginStart="32dp"
+        android:layout_marginStart="68dp"
         android:layout_marginTop="92dp"
         android:text="ف"
         android:textAlignment="center"
@@ -62,6 +50,50 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/img_8" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="76dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="84dp"
+        android:text="ب"
+        android:textAlignment="center"
+        android:textColor="#F44336"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/Home" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="85dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="80dp"
+        android:text="م"
+        android:textAlignment="center"
+        android:textColor="#F44336"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="87dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="75dp"
+        android:text="و"
+        android:textAlignment="center"
+        android:textColor="#F44336"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

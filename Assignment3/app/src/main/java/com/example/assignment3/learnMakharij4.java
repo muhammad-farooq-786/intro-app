@@ -31,14 +31,6 @@ public class learnMakharij4 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
-        Button nextButton = findViewById(R.id.Next3);
-        nextButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(learnMakharij4.this,learnMakharij4.class);
-                startActivity(intent);
-            }
-        });
+        
     }
 }
