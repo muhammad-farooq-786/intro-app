@@ -17,21 +17,24 @@
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="323dp"
             android:text="back"
-            app:layout_constraintBottom_toTopOf="@+id/textView5"
-            app:layout_constraintEnd_toStartOf="@+id/imageView2"
-            app:layout_constraintHorizontal_bias="0.355"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.076"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.097" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
             android:id="@+id/imageView2"
             android:layout_width="229dp"
             android:layout_height="230dp"
-            android:layout_marginStart="12dp"
-            android:layout_marginTop="28dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="92dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginBottom="76dp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView3"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/textView5"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/img" />
@@ -40,68 +43,311 @@
             android:id="@+id/textView5"
             android:layout_width="109dp"
             android:layout_height="42dp"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="124dp"
             android:text="Halqiyah"
             android:textAlignment="center"
             android:textColor="#F44336"
             android:textSize="20sp"
-            tools:layout_editor_absoluteX="3dp"
-            tools:layout_editor_absoluteY="138dp" />
+            app:layout_constraintEnd_toStartOf="@+id/imageView2"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button" />
 
         <TextView
             android:id="@+id/textView6"
             android:layout_width="109dp"
             android:layout_height="42dp"
+            android:layout_marginStart="152dp"
+            android:layout_marginTop="264dp"
             android:text="Lahatiyah"
             android:textColor="#F44336"
             android:textSize="20sp"
-            tools:layout_editor_absoluteX="369dp"
-            tools:layout_editor_absoluteY="138dp" />
+            app:layout_constraintEnd_toStartOf="@+id/imageView3"
+            app:layout_constraintHorizontal_bias="0.013"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
         <ImageView
             android:id="@+id/imageView3"
             android:layout_width="229dp"
             android:layout_height="230dp"
-            app:srcCompat="@drawable/img_1"
-            tools:layout_editor_absoluteX="486dp"
-            tools:layout_editor_absoluteY="64dp" />
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="152dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2"
+            app:srcCompat="@drawable/img_1" />
 
         <ImageView
             android:id="@+id/imageView4"
             android:layout_width="229dp"
             android:layout_height="230dp"
-            app:srcCompat="@drawable/img_2"
-            tools:layout_editor_absoluteX="249dp"
-            tools:layout_editor_absoluteY="320dp" />
-
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Next"
-            tools:layout_editor_absoluteX="615dp"
-            tools:layout_editor_absoluteY="8dp" />
+            android:layout_marginTop="76dp"
+            android:layout_marginEnd="152dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3"
+            app:srcCompat="@drawable/img_2" />
 
         <Button
             android:id="@+id/button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="468dp"
+            android:layout_marginTop="16dp"
             android:text="Home"
-            tools:layout_editor_absoluteX="312dp"
-            tools:layout_editor_absoluteY="8dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.341"
+            app:layout_constraintStart_toEndOf="@+id/button"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/textView7"
-            android:layout_width="126dp"
-            android:layout_height="47dp"
-            android:layout_marginStart="51dp"
-            android:layout_marginTop="200dp"
-            android:layout_marginEnd="72dp"
+            android:id="@+id/textView8"
+            android:layout_width="205dp"
+            android:layout_height="76dp"
+            android:layout_marginTop="252dp"
+            android:layout_marginEnd="112dp"
             android:text="Shajariyah- Haafiyah"
             android:textColor="#F44336"
+            android:textSize="20sp"
             app:layout_constraintEnd_toStartOf="@+id/imageView4"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="229dp"
+            android:layout_height="230dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginEnd="144dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4"
+            app:srcCompat="@drawable/img_3" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="91dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="288dp"
+            android:text="Tarfiyah"
+            android:textAlignment="center"
+            android:textColor="#F44336"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toStartOf="@+id/imageView6"
+            app:layout_constraintHorizontal_bias="0.469"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="229dp"
+            android:layout_height="230dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginEnd="144dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView6"
+            app:srcCompat="@drawable/img_4" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="97dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="304dp"
+            android:layout_marginEnd="184dp"
+            android:text="Nit-eeyah"
+            android:textAlignment="center"
+            android:textColor="#F44336"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toStartOf="@+id/imageView7"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="229dp"
+            android:layout_height="230dp"
+            android:layout_marginTop="112dp"
+            android:layout_marginEnd="144dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView7"
+            app:srcCompat="@drawable/img_5" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="115dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="136dp"
+            android:layout_marginTop="284dp"
+            android:text="Lisaveyah"
+            android:textAlignment="center"
+            android:textColor="#F44336"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toStartOf="@+id/imageView8"
+            app:layout_constraintHorizontal_bias="0.084"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="229dp"
+            android:layout_height="230dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginEnd="144dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView8"
+            app:srcCompat="@drawable/img_6" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="190dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="316dp"
+            android:text="Tip of tongue"
+            android:textAlignment="center"
+            android:textColor="#F44336"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toStartOf="@+id/imageView9"
+            app:layout_constraintHorizontal_bias="0.581"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="229dp"
+            android:layout_height="230dp"
+            android:layout_marginTop="144dp"
+            android:layout_marginEnd="144dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView9"
+            app:srcCompat="@drawable/img_7" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="119dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="360dp"
+            android:text="Ghunna"
+            android:textAlignment="center"
+            android:textColor="#F44336"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toStartOf="@+id/imageView10"
+            app:layout_constraintHorizontal_bias="0.445"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="229dp"
+            android:layout_height="230dp"
+            android:layout_marginTop="168dp"
+            android:layout_marginEnd="144dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView10"
+            app:srcCompat="@drawable/img_8" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="67dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="47dp"
+            android:layout_marginEnd="36dp"
+            android:layout_marginBottom="64dp"
+            android:text="ف"
+            android:textAlignment="center"
+            android:textColor="#F44336"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView15"
+            app:layout_constraintEnd_toStartOf="@+id/textView18"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="75dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="47dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginBottom="34dp"
+            android:text="ب"
+            android:textAlignment="center"
+            android:textColor="#F44336"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView16"
+            app:layout_constraintEnd_toStartOf="@+id/textView19"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="74dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="47dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="37dp"
+            android:text="م"
+            android:textAlignment="center"
+            android:textColor="#F44336"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView17"
+            app:layout_constraintEnd_toStartOf="@+id/textView20"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="83dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginBottom="32dp"
+            android:text="و"
+            android:textAlignment="center"
+            android:textColor="#F44336"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="228dp"
+            android:layout_height="79dp"
+            android:layout_marginStart="36dp"
+            android:text="Tip of the two upper jaw teeth touches the inner part of the lower lip"
+            android:textColor="#F44336"
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@+id/textView14"
+            tools:layout_editor_absoluteY="2846dp" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="230dp"
+            android:layout_height="59dp"
+            android:layout_marginStart="28dp"
+            android:text="Inner part of the both lips touch each other"
+            android:textColor="#F44336"
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@+id/textView15"
+            tools:layout_editor_absoluteY="2952dp" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="231dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="32dp"
+            android:text="Outer part of both lips touch each other"
+            android:textColor="#F44336"
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@+id/textView16"
+            tools:layout_editor_absoluteY="3037dp" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="227dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="36dp"
+            android:text="Rounding both lips and not closing the mouth"
+            android:textColor="#F44336"
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@+id/textView17"
+            tools:layout_editor_absoluteY="3111dp" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
