@@ -27,7 +27,7 @@ public class Makharij extends AppCompatActivity {
         testButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //Intent intent = new Intent(Makharij.this,testMakharij.class);
+                Intent intent = new Intent(Makharij.this,testScreen.class);
             }
         });
     }
