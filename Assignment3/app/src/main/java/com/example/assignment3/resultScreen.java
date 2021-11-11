@@ -45,6 +45,5 @@ public class resultScreen extends AppCompatActivity {
                 intent2.setAction(Intent.ACTION_SEND);
                 startActivity(intent2);
             }
-        });
-    }
+        });    }
 }

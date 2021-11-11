@@ -15,7 +15,7 @@ import org.w3c.dom.Text;
 public class testScreen extends AppCompatActivity {
 
     int count = 1;
-    int result = 0;
+    int result = 1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,14 +37,14 @@ public class testScreen extends AppCompatActivity {
             public void onClick(View v) {
                 EditText editText= findViewById(R.id.ansEdit);
                 if(editText.getText().toString().equals("a")){
-                    Toast.makeText(testScreen.this,"Your answer is correct",Toast.LENGTH_LONG).show();
+                    Toast.makeText(testScreen.this,"Your answer is correct",Toast.LENGTH_SHORT).show();
                     result++;
                     count++;
                 }
                 else if (!editText.getText().toString().equals("a") && !editText.getText().toString().equals("b")){
-                    Toast.makeText(testScreen.this,"Please write appropriate option",Toast.LENGTH_LONG).show();
+                    Toast.makeText(testScreen.this,"Please write appropriate option",Toast.LENGTH_SHORT).show();
                 }else {
-                    Toast.makeText(testScreen.this,"Your answer is wrong",Toast.LENGTH_LONG).show();
+                    Toast.makeText(testScreen.this,"Your answer is wrong",Toast.LENGTH_SHORT).show();
                     count++;
                 }
                 if(count==5){
