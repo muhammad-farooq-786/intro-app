@@ -33,7 +33,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView12"
+        android:id="@+id/qNum"
         android:layout_width="72dp"
         android:layout_height="35dp"
         android:layout_marginStart="36dp"
@@ -48,9 +48,9 @@
         app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
     <TextView
-        android:id="@+id/textView13"
-        android:layout_width="381dp"
-        android:layout_height="68dp"
+        android:id="@+id/QuestionView"
+        android:layout_width="393dp"
+        android:layout_height="111dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="85dp"
         android:layout_marginEnd="14dp"
@@ -60,58 +60,31 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
-    <TextView
-        android:id="@+id/textView14"
-        android:layout_width="119dp"
-        android:layout_height="47dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="88dp"
-        android:text="TextView"
-        android:textAlignment="center"
-        android:textSize="16sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView13" />
-
-    <TextView
-        android:id="@+id/textView15"
-        android:layout_width="119dp"
-        android:layout_height="47dp"
-        android:layout_marginTop="88dp"
-        android:layout_marginEnd="44dp"
-        android:text="TextView"
-        android:textAlignment="center"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView13" />
-
     <EditText
-        android:id="@+id/editTextTextPersonName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="84dp"
-        android:layout_marginTop="48dp"
-        android:layout_marginEnd="117dp"
+        android:id="@+id/ansEdit"
+        android:layout_width="236dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="79dp"
         android:ems="10"
-        android:hint="Enter your answer"
+        android:hint="Enter your answer option"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+        app:layout_constraintTop_toBottomOf="@+id/QuestionView" />
 
-    <TextView
-        android:id="@+id/textView17"
-        android:layout_width="323dp"
-        android:layout_height="53dp"
-        android:layout_marginStart="37dp"
-        android:layout_marginTop="82dp"
-        android:layout_marginEnd="49dp"
-        android:text="TextView"
-        android:textAlignment="center"
-        android:textSize="20sp"
+    <Button
+        android:id="@+id/answerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="126dp"
+        android:text="Submit answer"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/ansEdit" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

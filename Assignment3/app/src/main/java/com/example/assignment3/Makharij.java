@@ -28,6 +28,7 @@ public class Makharij extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Makharij.this,testScreen.class);
+                startActivity(intent);
             }
         });
     }
