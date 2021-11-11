@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Assignment3">
         <activity
+            android:name=".resultScreen"
+            android:exported="false" />
+        <activity
             android:name=".testScreen"
             android:exported="false" />
         <activity
