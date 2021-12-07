@@ -13,28 +13,37 @@
 
         <activity
             android:name=".resultScreen"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".Intro_Screen"
+            />
         <activity
             android:name=".testScreen"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".Intro_Screen"/>
         <activity
             android:name=".learnMakharij4"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".Intro_Screen"/>
         <activity
             android:name=".learnMakharij3"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".Intro_Screen"/>
         <activity
             android:name=".learnMakharij2"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".Intro_Screen"/>
         <activity
             android:name=".learnMakharij1"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".Intro_Screen"/>
         <activity
             android:name=".learnMakharij"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".Intro_Screen"/>
         <activity
             android:name=".Makharij"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".Intro_Screen"/>
         <activity
             android:name=".Intro_Screen"
             android:exported="true">
