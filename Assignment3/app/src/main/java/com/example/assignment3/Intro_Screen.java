@@ -10,6 +10,7 @@ import android.widget.Button;
 
 public class Intro_Screen extends AppCompatActivity {
 
+    //adding appBar
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
